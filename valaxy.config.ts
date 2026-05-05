@@ -9,6 +9,8 @@ export default defineValaxyConfig<UserThemeConfig>({
   theme: 'yun',
 
   themeConfig: {
+    type: 'strato',
+
     banner: {
       enable: false,
       title: "twilighty's blog",
