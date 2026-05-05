@@ -13,7 +13,7 @@ export default defineSiteConfig({
     name: 'twilighty',
     email: '',
     link: 'https://dyh0310.github.io/',
-    avatar: '/images/16.jpg',
+    avatar: '/images/header.jpg',
     status: {
       emoji: '',
       message: '',

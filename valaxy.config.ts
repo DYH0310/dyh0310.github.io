@@ -10,7 +10,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   themeConfig: {
     banner: {
-      enable: true,
+      enable: false,
       title: "twilighty's blog",
       cloud: {
         enable: false,
