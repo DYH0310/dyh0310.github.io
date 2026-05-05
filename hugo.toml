@@ -1,5 +1,5 @@
-baseURL = "https://DYH0310.github.io/"
-languageCode = "zh-cn"
+baseURL = "https://dyh0310.github.io/"
+locale = "zh-cn"
 title = "Your Blog"
 
 theme = "PaperMod"
