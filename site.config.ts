@@ -8,7 +8,7 @@ export default defineSiteConfig({
   timezone: 'Asia/Shanghai',
   title: "twilighty's blog",
   subtitle: 'Personal notes and posts.',
-  favicon: '/images/header.jpg',
+  favicon: '/favicon.png',
   author: {
     name: 'twilighty',
     email: '',

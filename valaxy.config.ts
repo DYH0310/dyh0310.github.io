@@ -9,7 +9,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   theme: 'yun',
 
   themeConfig: {
-    type: 'strato',
+    type: 'nimbo',
 
     banner: {
       enable: false,
