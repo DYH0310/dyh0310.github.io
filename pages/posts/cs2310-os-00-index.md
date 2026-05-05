@@ -2,7 +2,7 @@
 title: "OS Lecture 系统化笔记目录"
 date: 2026-05-05T15:00:00+08:00
 tags:
-  - CS2310-????????
+  - CS2310-Note
 toc: true
 ---
 # OS Lecture 系统化笔记目录
