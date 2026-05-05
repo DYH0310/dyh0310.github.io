@@ -24,7 +24,6 @@ aside: false
 
 ## Contact
 
-- Email: dyh060310@sjtu.edu.cn
 - GitHub: dyh0310.github.io
 
 ## Now
