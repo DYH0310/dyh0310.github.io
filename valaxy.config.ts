@@ -36,7 +36,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     pages: [
       {
         name: 'About me',
-        url: '/about/',
+        url: '/about',
         icon: 'i-ri-user-line',
         color: '#f4b400',
       },
@@ -45,7 +45,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     menu: {
       custom: {
         title: 'About me',
-        url: '/about/',
+        url: '/about',
         icon: 'i-ri-user-line',
       },
     },
