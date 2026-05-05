@@ -5,6 +5,9 @@ title = "Your Blog"
 theme = "PaperMod"
 
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  disableScrollToTop = true
+  hideFooter = true
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false

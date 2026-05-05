@@ -1,0 +1,73 @@
+:root,
+:root[data-theme="light"],
+:root[data-theme="dark"] {
+    --theme: transparent;
+    --entry: rgba(10, 14, 22, 0.72);
+    --primary: rgba(255, 255, 255, 0.96);
+    --secondary: rgba(226, 232, 240, 0.76);
+    --tertiary: rgba(255, 255, 255, 0.16);
+    --content: rgba(255, 255, 255, 0.9);
+    --code-bg: rgba(255, 255, 255, 0.11);
+    --code-block-bg: rgba(4, 7, 12, 0.88);
+    --border: rgba(255, 255, 255, 0.18);
+    color-scheme: dark;
+}
+
+html {
+    min-height: 100%;
+    background: #05070c;
+}
+
+body,
+body.list {
+    min-height: 100vh;
+    color: var(--content);
+    background:
+        linear-gradient(rgba(4, 7, 12, 0.72), rgba(4, 7, 12, 0.78)),
+        url("/images/16.jpg") center center / cover fixed no-repeat;
+}
+
+.header {
+    background: rgba(4, 7, 12, 0.48);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(12px);
+}
+
+.post-entry,
+.first-entry,
+.terms-tags a,
+details.toc,
+.paginav,
+.post-tags a {
+    background: var(--entry);
+    border-color: var(--border);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+}
+
+.post-content,
+.entry-content,
+.entry-footer,
+.post-meta,
+.breadcrumbs,
+.footer {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
+}
+
+.post-content a,
+.footer a,
+.post-meta a,
+.breadcrumbs a {
+    color: var(--primary);
+}
+
+.top-link {
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid var(--border);
+}
+
+@media (max-width: 768px) {
+    body,
+    body.list {
+        background-attachment: scroll;
+    }
+}
