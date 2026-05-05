@@ -1,0 +1,30 @@
+:root {
+  --yun-sidebar-bg-img: url('/images/16.jpg');
+  --yun-c-cloud: rgba(10, 14, 22, 0.92);
+}
+
+.yun-card {
+  backdrop-filter: blur(12px);
+}
+
+.site-description,
+.site-subtitle {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+}
+
+.post-card,
+.post-card-wrapper,
+.yun-card[bg='$va-c-bg-light'] {
+  background: rgba(10, 14, 22, 0.68);
+}
+
+.markdown-body,
+.site-description,
+.site-subtitle,
+.site-name {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.site-author-avatar img {
+  object-fit: cover;
+}
