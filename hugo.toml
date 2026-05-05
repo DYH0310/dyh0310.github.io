@@ -1,0 +1,10 @@
+baseURL = "https://DYH0310.github.io/"
+languageCode = "zh-cn"
+title = "Your Blog"
+
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
